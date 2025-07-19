@@ -9,10 +9,4 @@ function toggleMode() {
   } else {
     img.setAttribute("src", "./assets/fotoosite.png")
   }
-  const alt = document.querySelector("#profile img")
-  if (html.classList.contains("light")) {
-    img.setAttribute("alt", "ola")
-  } else {
-    img.setAttribute("alt", "tudo bem ")
-  }
 }
